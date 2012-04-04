@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDD79EE4152B7A9D00494997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD79EE3152B7A9D00494997 /* UIKit.framework */; };
+		FDD79EE6152B7A9D00494997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD79EE5152B7A9D00494997 /* Foundation.framework */; };
+		FDD79EE8152B7A9D00494997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD79EE7152B7A9D00494997 /* CoreGraphics.framework */; };
+		FDD79EEE152B7A9D00494997 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDD79EEC152B7A9D00494997 /* InfoPlist.strings */; };
+		FDD79EF0152B7A9D00494997 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD79EEF152B7A9D00494997 /* main.m */; };
+		FDD79EF4152B7A9D00494997 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD79EF3152B7A9D00494997 /* AppDelegate.m */; };
+		FDD79EF7152B7A9D00494997 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD79EF6152B7A9D00494997 /* ViewController.m */; };
+		FDD79EFA152B7A9D00494997 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDD79EF8152B7A9D00494997 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDD79EDF152B7A9D00494997 /* CREOBathroomStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CREOBathroomStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD79EE3152B7A9D00494997 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDD79EE5152B7A9D00494997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDD79EE7152B7A9D00494997 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDD79EEB152B7A9D00494997 /* CREOBathroomStatus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CREOBathroomStatus-Info.plist"; sourceTree = "<group>"; };
+		FDD79EED152B7A9D00494997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDD79EEF152B7A9D00494997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDD79EF1152B7A9D00494997 /* CREOBathroomStatus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CREOBathroomStatus-Prefix.pch"; sourceTree = "<group>"; };
+		FDD79EF2152B7A9D00494997 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDD79EF3152B7A9D00494997 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDD79EF5152B7A9D00494997 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDD79EF6152B7A9D00494997 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDD79EF9152B7A9D00494997 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD79EDC152B7A9D00494997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD79EE4152B7A9D00494997 /* UIKit.framework in Frameworks */,
+				FDD79EE6152B7A9D00494997 /* Foundation.framework in Frameworks */,
+				FDD79EE8152B7A9D00494997 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDD79ED4152B7A9D00494997 = {
+			isa = PBXGroup;
+			children = (
+				FDD79EE9152B7A9D00494997 /* CREOBathroomStatus */,
+				FDD79EE2152B7A9D00494997 /* Frameworks */,
+				FDD79EE0152B7A9D00494997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD79EE0152B7A9D00494997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD79EDF152B7A9D00494997 /* CREOBathroomStatus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD79EE2152B7A9D00494997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDD79EE3152B7A9D00494997 /* UIKit.framework */,
+				FDD79EE5152B7A9D00494997 /* Foundation.framework */,
+				FDD79EE7152B7A9D00494997 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDD79EE9152B7A9D00494997 /* CREOBathroomStatus */ = {
+			isa = PBXGroup;
+			children = (
+				FDD79EF2152B7A9D00494997 /* AppDelegate.h */,
+				FDD79EF3152B7A9D00494997 /* AppDelegate.m */,
+				FDD79EF5152B7A9D00494997 /* ViewController.h */,
+				FDD79EF6152B7A9D00494997 /* ViewController.m */,
+				FDD79EF8152B7A9D00494997 /* ViewController.xib */,
+				FDD79EEA152B7A9D00494997 /* Supporting Files */,
+			);
+			path = CREOBathroomStatus;
+			sourceTree = "<group>";
+		};
+		FDD79EEA152B7A9D00494997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDD79EEB152B7A9D00494997 /* CREOBathroomStatus-Info.plist */,
+				FDD79EEC152B7A9D00494997 /* InfoPlist.strings */,
+				FDD79EEF152B7A9D00494997 /* main.m */,
+				FDD79EF1152B7A9D00494997 /* CREOBathroomStatus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD79EDE152B7A9D00494997 /* CREOBathroomStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD79EFD152B7A9D00494997 /* Build configuration list for PBXNativeTarget "CREOBathroomStatus" */;
+			buildPhases = (
+				FDD79EDB152B7A9D00494997 /* Sources */,
+				FDD79EDC152B7A9D00494997 /* Frameworks */,
+				FDD79EDD152B7A9D00494997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CREOBathroomStatus;
+			productName = CREOBathroomStatus;
+			productReference = FDD79EDF152B7A9D00494997 /* CREOBathroomStatus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD79ED6152B7A9D00494997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FDD79ED9152B7A9D00494997 /* Build configuration list for PBXProject "CREOBathroomStatus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDD79ED4152B7A9D00494997;
+			productRefGroup = FDD79EE0152B7A9D00494997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD79EDE152B7A9D00494997 /* CREOBathroomStatus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD79EDD152B7A9D00494997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD79EEE152B7A9D00494997 /* InfoPlist.strings in Resources */,
+				FDD79EFA152B7A9D00494997 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD79EDB152B7A9D00494997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD79EF0152B7A9D00494997 /* main.m in Sources */,
+				FDD79EF4152B7A9D00494997 /* AppDelegate.m in Sources */,
+				FDD79EF7152B7A9D00494997 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDD79EEC152B7A9D00494997 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD79EED152B7A9D00494997 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDD79EF8152B7A9D00494997 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD79EF9152B7A9D00494997 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDD79EFB152B7A9D00494997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDD79EFC152B7A9D00494997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD79EFE152B7A9D00494997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CREOBathroomStatus/CREOBathroomStatus-Prefix.pch";
+				INFOPLIST_FILE = "CREOBathroomStatus/CREOBathroomStatus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDD79EFF152B7A9D00494997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CREOBathroomStatus/CREOBathroomStatus-Prefix.pch";
+				INFOPLIST_FILE = "CREOBathroomStatus/CREOBathroomStatus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD79ED9152B7A9D00494997 /* Build configuration list for PBXProject "CREOBathroomStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD79EFB152B7A9D00494997 /* Debug */,
+				FDD79EFC152B7A9D00494997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD79EFD152B7A9D00494997 /* Build configuration list for PBXNativeTarget "CREOBathroomStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD79EFE152B7A9D00494997 /* Debug */,
+				FDD79EFF152B7A9D00494997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD79ED6152B7A9D00494997 /* Project object */;
+}
