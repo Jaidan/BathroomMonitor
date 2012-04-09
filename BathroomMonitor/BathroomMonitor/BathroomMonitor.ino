@@ -66,7 +66,7 @@ void loop()
                   client.println();
                   client.print("<!doctype html>");
                   client.print("<html><head></head><body>CREO Restroom Status<br>Bathroom:");
-                  client.print("<script>setTimeout('refresh()', 5000);function refresh() { window.location.href = '/' }</script>");
+                  client.print("<script>setTimeout('refresh()', 30000);function refresh() { window.location.href = '/' }</script>");
                   if (buttonState > 0)
                   {
                      client.print("Available");
@@ -91,7 +91,7 @@ void loop()
       }
 
     // give the web browser time to receive the data
-      delay(5);
+      delay(1);
     // close the connection:
       client.stop();
     }

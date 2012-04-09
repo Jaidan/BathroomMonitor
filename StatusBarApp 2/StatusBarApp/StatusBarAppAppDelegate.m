@@ -65,7 +65,7 @@
     
     [aRequest release];
     [temp release];
-    [self performSelector:@selector(requestStatus) withObject:nil afterDelay:5];
+    [self performSelector:@selector(requestStatus) withObject:nil afterDelay:10];
 }
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
 {
