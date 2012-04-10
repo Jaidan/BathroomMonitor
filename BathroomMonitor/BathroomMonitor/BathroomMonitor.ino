@@ -59,23 +59,25 @@ void loop()
           if (client.available()) 
           {
               char c = client.read();
-              if (c == '\n' && currentLineIsBlank) 
+              if (c == '\n') 
               {
-                  client.println("HTTP/1.1 200 OK");
-                  client.println("Content-Type: text/html");
+                  client.println(F("HTTP/1.1 200 OK"));
+                  client.println(F("Content-Type: text/html"));
                   client.println();
-                  client.print("<!doctype html>");
-                  client.print("<html><head></head><body>CREO Restroom Status<br>Bathroom:");
-                  client.print("<script>setTimeout('refresh()', 30000);function refresh() { window.location.href = '/' }</script>");
+                  client.print(F("<!doctype html>"));
+                  client.print(F("<html><head>")); 
+                  client.print(F("<meta http-equiv=\"refresh\" content=\"10\">"));
+                  client.print(F("</head><body>CREO Restroom Status</br>Bathroom:"));
+                  //client.print("<script>setTimeout('refresh()', 30000);function refresh() { window.location.href = '/' }</script>");
                   if (buttonState > 0)
                   {
-                     client.print("Available");
+                     client.print(F("Available"));
                   }
                   else
                   {
-                     client.print("Occupied");
+                     client.print(F("Occupied"));
                   }
-                  client.println("</br></body></html>");
+                  client.println(F("</br></body></html>"));
                   break;
            
               }
